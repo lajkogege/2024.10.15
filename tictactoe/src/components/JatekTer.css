@@ -1,0 +1,18 @@
+
+
+.felkapcs {
+    background-color: rgb(230, 209, 50) !important;
+}
+
+.jatekter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+h1{
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
