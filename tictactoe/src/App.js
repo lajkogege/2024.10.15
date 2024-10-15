@@ -4,9 +4,11 @@ import JatekTer from './components/Jatekter';
 import { useState } from 'react';
 
 function App() {
-  const lista =[true, false, true,false, true,false, true, false]
-  const id=0
+  const [lista,setLista] =useSte([true, false, true,false, true,false, true, false])
   function katt(adat){
+    const slista=[...lista];
+    slista[adat]=!slista[adat]
+    setLista([])
     console.log("app-ban",adat)
   
   }
